@@ -4,7 +4,7 @@ import fr.unice.polytech.devops.CustomerFinder;
 import fr.unice.polytech.devops.CustomerRegistration;
 import fr.unice.polytech.devops.entities.Customer;
 import fr.unice.polytech.devops.exceptions.AlreadyExistingCustomerException;
-import fr.unice.polytech.isa.tcf.utils.Database;
+import fr.unice.polytech.devops.utils.Database;
 
 
 import javax.ejb.EJB;

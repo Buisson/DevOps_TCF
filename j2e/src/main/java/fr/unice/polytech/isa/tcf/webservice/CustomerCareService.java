@@ -1,9 +1,9 @@
 package fr.unice.polytech.isa.tcf.webservice;
 
+import fr.unice.polytech.devops.entities.Cookies;
 import fr.unice.polytech.devops.entities.OrderStatus;
 import fr.unice.polytech.devops.exceptions.AlreadyExistingCustomerException;
-import fr.unice.polytech.isa.tcf.entities.Cookies;
-import fr.unice.polytech.isa.tcf.exceptions.UnknownOrderId;
+import fr.unice.polytech.devops.exceptions.UnknownOrderId;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

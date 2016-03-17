@@ -3,7 +3,7 @@ package fr.unice.polytech.devops.components.carts;
 import fr.unice.polytech.devops.components.CartBean;
 import fr.unice.polytech.devops.entities.Customer;
 import fr.unice.polytech.devops.entities.Item;
-import fr.unice.polytech.isa.tcf.utils.Database;
+import fr.unice.polytech.devops.utils.Database;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;

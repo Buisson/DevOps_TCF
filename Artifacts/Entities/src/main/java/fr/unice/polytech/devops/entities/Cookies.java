@@ -1,4 +1,4 @@
-package fr.unice.polytech.isa.tcf.entities;
+package fr.unice.polytech.devops.entities;
 
 public enum Cookies {
 

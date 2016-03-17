@@ -1,7 +1,7 @@
 package fr.unice.polytech.devops;
 
 import fr.unice.polytech.devops.entities.OrderStatus;
-import fr.unice.polytech.isa.tcf.exceptions.UnknownOrderId;
+import fr.unice.polytech.devops.exceptions.UnknownOrderId;
 
 import javax.ejb.Local;
 

@@ -3,10 +3,8 @@ package fr.unice.polytech.devops;
 import fr.unice.polytech.devops.entities.Customer;
 import fr.unice.polytech.devops.entities.Item;
 import fr.unice.polytech.devops.exceptions.PaymentException;
-import fr.unice.polytech.devops.interceptors.CartCounter;
 
 import javax.ejb.Local;
-import javax.interceptor.Interceptors;
 import java.util.Set;
 
 @Local

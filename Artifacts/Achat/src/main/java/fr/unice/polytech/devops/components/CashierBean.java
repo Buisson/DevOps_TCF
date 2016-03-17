@@ -8,7 +8,7 @@ import fr.unice.polytech.devops.entities.Order;
 import fr.unice.polytech.devops.exceptions.ExternalPartnerException;
 import fr.unice.polytech.devops.exceptions.PaymentException;
 import fr.unice.polytech.devops.utils.BankAPI;
-import fr.unice.polytech.isa.tcf.utils.Database;
+import fr.unice.polytech.devops.utils.Database;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;

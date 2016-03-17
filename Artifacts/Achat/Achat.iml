@@ -12,7 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.openejb:javaee-api:6.0-6" level="project" />
-    <orderEntry type="module" module-name="RegistreClient" />
+    <orderEntry type="module" module-name="Entities" />
     <orderEntry type="module" module-name="tcf-backend" />
     <orderEntry type="library" name="Maven: org.apache.openejb:openejb-cxf:4.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.openejb:openejb-webservices:4.7.3" level="project" />
@@ -113,5 +113,6 @@
     <orderEntry type="library" name="Maven: org.json:json:20160212" level="project" />
     <orderEntry type="module" module-name="tcf-client" />
     <orderEntry type="module" module-name="Cuisine" />
+    <orderEntry type="module" module-name="RegistreClient" />
   </component>
 </module>

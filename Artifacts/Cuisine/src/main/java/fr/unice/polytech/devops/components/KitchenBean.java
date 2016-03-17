@@ -4,8 +4,8 @@ import fr.unice.polytech.devops.OrderProcessing;
 import fr.unice.polytech.devops.Tracker;
 import fr.unice.polytech.devops.entities.Order;
 import fr.unice.polytech.devops.entities.OrderStatus;
-import fr.unice.polytech.isa.tcf.exceptions.UnknownOrderId;
-import fr.unice.polytech.isa.tcf.utils.Database;
+import fr.unice.polytech.devops.exceptions.UnknownOrderId;
+import fr.unice.polytech.devops.utils.Database;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;

@@ -1,6 +1,5 @@
 package fr.unice.polytech.devops.entities;
 
-import fr.unice.polytech.isa.tcf.entities.Cookies;
 
 import java.io.Serializable;
 

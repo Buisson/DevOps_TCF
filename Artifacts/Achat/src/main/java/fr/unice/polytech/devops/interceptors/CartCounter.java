@@ -3,11 +3,10 @@ package fr.unice.polytech.devops.interceptors;
 
 //import fr.unice.polytech.devops.utils.Database;
 
-import fr.unice.polytech.isa.tcf.utils.Database;
+import fr.unice.polytech.devops.utils.Database;
 
 import javax.ejb.EJB;
 import javax.interceptor.AroundInvoke;
-import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 import java.io.Serializable;
 

@@ -1,5 +1,7 @@
 package fr.unice.polytech.devops;
 
+
+
 import fr.unice.polytech.devops.entities.Customer;
 
 import javax.ejb.Local;

@@ -7,7 +7,6 @@ import fr.unice.polytech.devops.entities.Customer;
 import fr.unice.polytech.devops.entities.Item;
 import fr.unice.polytech.devops.exceptions.PaymentException;
 import fr.unice.polytech.devops.interceptors.CartCounter;
-import fr.unice.polytech.devops.interceptors.Logger;
 
 import javax.ejb.EJB;
 import javax.interceptor.Interceptors;

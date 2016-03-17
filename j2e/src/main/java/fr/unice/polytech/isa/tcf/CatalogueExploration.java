@@ -1,6 +1,7 @@
 package fr.unice.polytech.isa.tcf;
 
-import fr.unice.polytech.isa.tcf.entities.Cookies;
+
+import fr.unice.polytech.devops.entities.Cookies;
 
 import javax.ejb.Local;
 import java.util.Set;
