@@ -146,6 +146,7 @@
             <version>${versions.tomee.embedded}</version>
             <scope>test</scope>
         </dependency>
+        <!--
         <dependency>
             <groupId>fr.unice.polytech.isa</groupId>
             <artifactId>tcf-client</artifactId>
@@ -172,6 +173,7 @@
             <artifactId>Catalogue</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        -->
 
     </dependencies>
 

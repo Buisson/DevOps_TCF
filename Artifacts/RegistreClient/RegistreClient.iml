@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Entities" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.openejb:javaee-api:6.0-6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:openejb-core:4.7.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:mbean-annotation-api:4.7.3" level="project" />
@@ -224,9 +225,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:arquillian-tomee-common:1.7.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-util:1.7.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:arquillian-common:1.7.3" level="project" />
-    <orderEntry type="module" module-name="tcf-client" />
-    <orderEntry type="module" module-name="Entities" />
-    <orderEntry type="module" module-name="Cuisine" />
-    <orderEntry type="module" module-name="Catalogue" />
   </component>
 </module>

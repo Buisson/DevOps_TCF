@@ -222,9 +222,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:arquillian-tomee-common:1.7.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:tomee-util:1.7.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.openejb:arquillian-common:1.7.3" level="project" />
-    <orderEntry type="module" module-name="tcf-client" />
-    <orderEntry type="module" module-name="RegistreClient" />
-    <orderEntry type="module" module-name="Cuisine" />
-    <orderEntry type="module" module-name="Catalogue" />
   </component>
 </module>
