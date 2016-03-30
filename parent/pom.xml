@@ -15,6 +15,20 @@
         <versions.tomee.embedded>1.7.3</versions.tomee.embedded>
     </properties>
 
+
+
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>erebe-vm17-snapshots</name>
+      <url>http://erebe-vm17.i3s.unice.fr/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
+
+
 <!--
 
 

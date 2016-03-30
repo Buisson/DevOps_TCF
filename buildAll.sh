@@ -13,15 +13,17 @@ cd RegistreClient/
 mvn clean install
 cd ..
 
-#build j2e
-cd ../j2e
+#build Catalogue
+cd Catalogue/
 mvn clean install
-cd ../Artifacts/
+cd ..
+
 
 #build Achat
 cd Achat/
 mvn clean install
 cd ../..
+
 
 
 
