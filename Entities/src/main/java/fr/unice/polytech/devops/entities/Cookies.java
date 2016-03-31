@@ -16,6 +16,7 @@ public enum Cookies {
 		this.name = value;
 		this.price = price;//testtitititi
 		System.out.println("test Jenkins");
+		System.out.println("test Jenkins");
 	}
 
 }
