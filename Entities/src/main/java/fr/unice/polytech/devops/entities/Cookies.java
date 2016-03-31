@@ -14,7 +14,7 @@ public enum Cookies {
 
 	Cookies(String value, double price) {
 		this.name = value;
-		this.price = price;//test
+		this.price = price;//testtitititi
 	}
 
 }
