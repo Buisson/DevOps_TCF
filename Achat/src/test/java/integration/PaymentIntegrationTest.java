@@ -31,8 +31,7 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 
 	private Set<Item> items;
 
-	//@Before
-	@Ignore
+	@Before
 	public void setUpContext() {
 		memory.flush();
 		items = new HashSet<>();
@@ -40,7 +39,7 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 		items.add(new Item(Cookies.DARK_TEMPTATION, 2));
 	}
 
-	@Ignore
+	@Test
 	public void integrationBetweenCustomersAndOrders() throws Exception {
 		registration.register("john", "1234-896983");
 		Customer retrieved = finder.findByName("john").get();
@@ -48,10 +47,6 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 		String id = cashier.payOrder(retrieved, items);
 		Order order = memory.getOrders().get(id);
 		assertTrue(retrieved.getOrders().contains(order));
-	}
-	@Test
-	public void h(){
-		assertTrue(true);
 	}
 
 }
