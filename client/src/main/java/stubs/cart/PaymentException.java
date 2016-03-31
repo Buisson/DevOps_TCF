@@ -16,8 +16,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="amount" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="amount" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
  *         &lt;element name="message" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -29,39 +29,15 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "PaymentException", propOrder = {
-    "amount",
     "name",
+    "amount",
     "message"
 })
 public class PaymentException {
 
-    protected Double amount;
     protected String name;
+    protected Double amount;
     protected String message;
-
-    /**
-     * Obtient la valeur de la propriété amount.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Double }
-     *     
-     */
-    public Double getAmount() {
-        return amount;
-    }
-
-    /**
-     * Définit la valeur de la propriété amount.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Double }
-     *     
-     */
-    public void setAmount(Double value) {
-        this.amount = value;
-    }
 
     /**
      * Obtient la valeur de la propriété name.
@@ -85,6 +61,30 @@ public class PaymentException {
      */
     public void setName(String value) {
         this.name = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété amount.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
+     */
+    public Double getAmount() {
+        return amount;
+    }
+
+    /**
+     * Définit la valeur de la propriété amount.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
+     */
+    public void setAmount(Double value) {
+        this.amount = value;
     }
 
     /**

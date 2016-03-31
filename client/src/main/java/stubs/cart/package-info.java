@@ -1,2 +1,2 @@
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://webservice.tcf.isa.polytech.unice.fr/")
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://webservice.devops.polytech.unice.fr/")
 package stubs.cart;

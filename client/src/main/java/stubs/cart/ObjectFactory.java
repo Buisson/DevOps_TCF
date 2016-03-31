@@ -24,16 +24,16 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _RemoveItemToCustomerCartResponse_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "removeItemToCustomerCartResponse");
-    private final static QName _GetCustomerCartContentsResponse_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "getCustomerCartContentsResponse");
-    private final static QName _Validate_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "validate");
-    private final static QName _AddItemToCustomerCartResponse_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "addItemToCustomerCartResponse");
-    private final static QName _UnknownCustomerException_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "UnknownCustomerException");
-    private final static QName _PaymentException_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "PaymentException");
-    private final static QName _GetCustomerCartContents_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "getCustomerCartContents");
-    private final static QName _RemoveItemToCustomerCart_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "removeItemToCustomerCart");
-    private final static QName _AddItemToCustomerCart_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "addItemToCustomerCart");
-    private final static QName _ValidateResponse_QNAME = new QName("http://webservice.tcf.isa.polytech.unice.fr/", "validateResponse");
+    private final static QName _RemoveItemToCustomerCartResponse_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "removeItemToCustomerCartResponse");
+    private final static QName _Validate_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "validate");
+    private final static QName _GetCustomerCartContentsResponse_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "getCustomerCartContentsResponse");
+    private final static QName _UnknownCustomerException_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "UnknownCustomerException");
+    private final static QName _PaymentException_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "PaymentException");
+    private final static QName _GetCustomerCartContents_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "getCustomerCartContents");
+    private final static QName _AddItemToCustomerCartResponse_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "addItemToCustomerCartResponse");
+    private final static QName _RemoveItemToCustomerCart_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "removeItemToCustomerCart");
+    private final static QName _AddItemToCustomerCart_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "addItemToCustomerCart");
+    private final static QName _ValidateResponse_QNAME = new QName("http://webservice.devops.polytech.unice.fr/", "validateResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: stubs.cart
@@ -134,43 +134,34 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link RemoveItemToCustomerCartResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "removeItemToCustomerCartResponse")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "removeItemToCustomerCartResponse")
     public JAXBElement<RemoveItemToCustomerCartResponse> createRemoveItemToCustomerCartResponse(RemoveItemToCustomerCartResponse value) {
         return new JAXBElement<RemoveItemToCustomerCartResponse>(_RemoveItemToCustomerCartResponse_QNAME, RemoveItemToCustomerCartResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetCustomerCartContentsResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "getCustomerCartContentsResponse")
-    public JAXBElement<GetCustomerCartContentsResponse> createGetCustomerCartContentsResponse(GetCustomerCartContentsResponse value) {
-        return new JAXBElement<GetCustomerCartContentsResponse>(_GetCustomerCartContentsResponse_QNAME, GetCustomerCartContentsResponse.class, null, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Validate }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "validate")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "validate")
     public JAXBElement<Validate> createValidate(Validate value) {
         return new JAXBElement<Validate>(_Validate_QNAME, Validate.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AddItemToCustomerCartResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetCustomerCartContentsResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "addItemToCustomerCartResponse")
-    public JAXBElement<AddItemToCustomerCartResponse> createAddItemToCustomerCartResponse(AddItemToCustomerCartResponse value) {
-        return new JAXBElement<AddItemToCustomerCartResponse>(_AddItemToCustomerCartResponse_QNAME, AddItemToCustomerCartResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "getCustomerCartContentsResponse")
+    public JAXBElement<GetCustomerCartContentsResponse> createGetCustomerCartContentsResponse(GetCustomerCartContentsResponse value) {
+        return new JAXBElement<GetCustomerCartContentsResponse>(_GetCustomerCartContentsResponse_QNAME, GetCustomerCartContentsResponse.class, null, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link UnknownCustomerException }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "UnknownCustomerException")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "UnknownCustomerException")
     public JAXBElement<UnknownCustomerException> createUnknownCustomerException(UnknownCustomerException value) {
         return new JAXBElement<UnknownCustomerException>(_UnknownCustomerException_QNAME, UnknownCustomerException.class, null, value);
     }
@@ -179,7 +170,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link PaymentException }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "PaymentException")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "PaymentException")
     public JAXBElement<PaymentException> createPaymentException(PaymentException value) {
         return new JAXBElement<PaymentException>(_PaymentException_QNAME, PaymentException.class, null, value);
     }
@@ -188,16 +179,25 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link GetCustomerCartContents }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "getCustomerCartContents")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "getCustomerCartContents")
     public JAXBElement<GetCustomerCartContents> createGetCustomerCartContents(GetCustomerCartContents value) {
         return new JAXBElement<GetCustomerCartContents>(_GetCustomerCartContents_QNAME, GetCustomerCartContents.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddItemToCustomerCartResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "addItemToCustomerCartResponse")
+    public JAXBElement<AddItemToCustomerCartResponse> createAddItemToCustomerCartResponse(AddItemToCustomerCartResponse value) {
+        return new JAXBElement<AddItemToCustomerCartResponse>(_AddItemToCustomerCartResponse_QNAME, AddItemToCustomerCartResponse.class, null, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link RemoveItemToCustomerCart }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "removeItemToCustomerCart")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "removeItemToCustomerCart")
     public JAXBElement<RemoveItemToCustomerCart> createRemoveItemToCustomerCart(RemoveItemToCustomerCart value) {
         return new JAXBElement<RemoveItemToCustomerCart>(_RemoveItemToCustomerCart_QNAME, RemoveItemToCustomerCart.class, null, value);
     }
@@ -206,7 +206,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link AddItemToCustomerCart }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "addItemToCustomerCart")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "addItemToCustomerCart")
     public JAXBElement<AddItemToCustomerCart> createAddItemToCustomerCart(AddItemToCustomerCart value) {
         return new JAXBElement<AddItemToCustomerCart>(_AddItemToCustomerCart_QNAME, AddItemToCustomerCart.class, null, value);
     }
@@ -215,7 +215,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link ValidateResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservice.tcf.isa.polytech.unice.fr/", name = "validateResponse")
+    @XmlElementDecl(namespace = "http://webservice.devops.polytech.unice.fr/", name = "validateResponse")
     public JAXBElement<ValidateResponse> createValidateResponse(ValidateResponse value) {
         return new JAXBElement<ValidateResponse>(_ValidateResponse_QNAME, ValidateResponse.class, null, value);
     }

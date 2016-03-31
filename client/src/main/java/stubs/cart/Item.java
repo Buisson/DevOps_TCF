@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="cookie" type="{http://webservice.tcf.isa.polytech.unice.fr/}cookies" minOccurs="0"/>
+ *         &lt;element name="cookie" type="{http://webservice.devops.polytech.unice.fr/}cookies" minOccurs="0"/>
  *         &lt;element name="quantity" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *       &lt;/sequence>
  *     &lt;/restriction>

@@ -10,7 +10,7 @@ import javax.xml.ws.WebFault;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "PaymentException", targetNamespace = "http://webservice.tcf.isa.polytech.unice.fr/")
+@WebFault(name = "PaymentException", targetNamespace = "http://webservice.devops.polytech.unice.fr/")
 public class PaymentException_Exception
     extends Exception
 {

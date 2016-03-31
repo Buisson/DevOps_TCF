@@ -10,7 +10,7 @@ import javax.xml.ws.WebFault;
  * Generated source version: 2.2
  * 
  */
-@WebFault(name = "UnknownCustomerException", targetNamespace = "http://webservice.tcf.isa.polytech.unice.fr/")
+@WebFault(name = "UnknownCustomerException", targetNamespace = "http://webservice.devops.polytech.unice.fr/")
 public class UnknownCustomerException_Exception
     extends Exception
 {
