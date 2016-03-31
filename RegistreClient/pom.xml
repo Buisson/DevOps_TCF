@@ -2,24 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.unice.polytech.devops</groupId>
-  <artifactId>Entities</artifactId>
+  <artifactId>RegistreClient</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Entities</name>
-  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>fr.unice.polytech.devops</groupId>
+      <artifactId>Entities</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
   <parent>
     <groupId>fr.unice.polytech.devops</groupId>
     <artifactId>parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath>../../parent</relativePath>
   </parent>
-
-
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>erebe-vm17-releases</name>
-      <url>http://erebe-vm17.i3s.unice.fr/artifactory/ext-snapshot-local</url>
-    </repository>
-  </distributionManagement>
 </project>

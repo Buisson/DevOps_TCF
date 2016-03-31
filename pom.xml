@@ -29,19 +29,16 @@
 
 
 
-<!--
+
+    <modules>
+        <module>Entities</module>
+        <module>Cuisine</module>
+        <module>RegistreClient</module>
+        <module>Catalogue</module>
+        <module>Achat</module>
+    </modules>
 
 
- <modules>
-
-  </modules>
-    <module>Entities</module>
-     <module>tcf-client</module>
-    <module>RegistreClient</module>
-    <module>Catalogue</module>
-  </modules>
-
--->
 
     <profiles>
         <profile>
