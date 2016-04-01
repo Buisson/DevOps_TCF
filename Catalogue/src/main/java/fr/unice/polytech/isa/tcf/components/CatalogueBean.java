@@ -27,4 +27,3 @@ public class CatalogueBean implements CatalogueExploration {
 		return result;
 	}
 }
-blabla
