@@ -24,6 +24,8 @@ public class CatalogueBean implements CatalogueExploration {
 			if(c.name().contains(regexp))
 				result.add(c);
 		}
+		System.out.println("toto");
 		return result;
+
 	}
 }
