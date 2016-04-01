@@ -29,6 +29,7 @@ public class CustomerRegistryBean
 	 	if(findByName(name).isPresent())
 			throw new AlreadyExistingCustomerException(name);
 		memory.getCustomers().put(name, new Customer(name, creditCard));
+		System.out.println("fdyththtth nooooooooooooo!");
 	}
 
 
