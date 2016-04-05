@@ -2,13 +2,8 @@ package integration;
 
 
 import arquillian.AbstractAchatest;
-import fr.unice.polytech.devops.CustomerFinder;
-import fr.unice.polytech.devops.CustomerRegistration;
-import fr.unice.polytech.devops.Payment;
-import fr.unice.polytech.devops.entities.Cookies;
-import fr.unice.polytech.devops.entities.Customer;
-import fr.unice.polytech.devops.entities.Item;
-import fr.unice.polytech.devops.entities.Order;
+import fr.unice.polytech.devops.*;
+import fr.unice.polytech.devops.entities.*;
 import org.jboss.arquillian.junit.Arquillian;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -29,6 +24,9 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 	@EJB private CustomerFinder finder;
 	@EJB private CustomerRegistration registration;
 
+	@EJB private OrderProcessing orderProcess;
+	@EJB private Tracker tracker;
+
 	private Set<Item> items;
 
 	@Before
@@ -47,6 +45,14 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 		String id = cashier.payOrder(retrieved, items);
 		Order order = memory.getOrders().get(id);
 		assertTrue(retrieved.getOrders().contains(order));
+	}
+
+	@Test
+	public void integrationBetweenModules() throws Exception {
+		registration.register("richard", "4321-896983");
+		Customer retrieved = finder.findByName("richard").get();
+		String id = cashier.payOrder(retrieved, items);
+		assertTrue(tracker.status(id).equals(OrderStatus.IN_PROGRESS));
 	}
 
 }
