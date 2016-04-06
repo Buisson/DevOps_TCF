@@ -52,7 +52,17 @@ public class PaymentIntegrationTest extends AbstractAchatest {
 		registration.register("richard", "4321-896983");
 		Customer retrieved = finder.findByName("richard").get();
 		String id = cashier.payOrder(retrieved, items);
+		assertTrue(tracker.status(id).equals(OrderStatus.READY));
+
+		registration.register("patrick", "1337-896983");
+		retrieved = finder.findByName("patrick").get();
+		id = cashier.payOrder(retrieved, items);
 		assertTrue(tracker.status(id).equals(OrderStatus.IN_PROGRESS));
+
+		registration.register("nathanael", "1111-896983");
+		retrieved = finder.findByName("nathanael").get();
+		id = cashier.payOrder(retrieved, items);
+		assertTrue(tracker.status(id).equals(OrderStatus.VALIDATED));
 	}
 
 }
