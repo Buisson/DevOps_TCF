@@ -42,7 +42,6 @@ public class BankAPI {
 			throw new ExternalPartnerException(url + "payments/" + id, e);
 		}
 		// Assessing the payment status
-		System.out.println("test jenkins");
 		return (payment.getInt("Status") == 0);
 	}
 
