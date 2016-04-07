@@ -29,4 +29,3 @@ public class CatalogueBean implements CatalogueExploration {
 
 	}
 }
-test
