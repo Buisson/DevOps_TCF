@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 
 @RunWith(Arquillian.class)
 public class KitchenTest extends AbstractCuisineTest {
-/**
+
     @EJB private OrderProcessing processor;
     @EJB private Tracker tracker;
 
@@ -44,12 +44,6 @@ public class KitchenTest extends AbstractCuisineTest {
         processor.process(ready);
         assertEquals(OrderStatus.READY, tracker.status(ready.getId()));
     }
-**/
-
-@Test
-public void processCommand() {
-    assertTrue(true);
-}
 
 
 

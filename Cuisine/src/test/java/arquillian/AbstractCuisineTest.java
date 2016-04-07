@@ -1,6 +1,8 @@
 package arquillian;
 
 
+import fr.unice.polytech.devops.OrderProcessing;
+import fr.unice.polytech.devops.components.KitchenBean;
 import fr.unice.polytech.devops.entities.Customer;
 import fr.unice.polytech.devops.exceptions.AlreadyExistingCustomerException;
 import fr.unice.polytech.devops.utils.Database;
@@ -26,6 +28,8 @@ public abstract class AbstractCuisineTest {
 				.addPackage(Database.class.getPackage())
 				// Entities
 				.addPackage(Customer.class.getPackage())
+				.addPackage(OrderProcessing.class.getPackage())
+				.addPackage(KitchenBean.class.getPackage())
 				// Components Interfaces
 			//	.addPackage(CartModifier.class.getPackage())
 				// Cart components
